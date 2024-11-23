@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    border: 1px solid #888888;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #838383;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 46px;
+    padding: 20px 100px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.product-card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.i {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.card-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-text h2 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.card-text p {
+    font-size: 24px;
+    color: #878787;
+}
+
+.product-card button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #888888;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #838383;
+    border-radius: 20px;
+}
+
+.product-card button img {
+    width: 32px;
+    height: 21px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:  #EDEDED;
+    font-size: 24px;
+    color: #777;
+}
